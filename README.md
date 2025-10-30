@@ -1,4 +1,4 @@
-# 🎨 Fractal UI - AI-Powered Component Generator
+# 🎨 RAJ UI - AI-Powered Component Generator
 
 *Powered by Google Gemini 2.5 Flash* 🤖
 

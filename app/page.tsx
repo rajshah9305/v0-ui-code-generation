@@ -31,7 +31,7 @@ import {
 } from "lucide-react"
 
 // Main App Component
-export default function FractalUIApp() {
+export default function RAJUIApp() {
   // Core State
   const [prompt, setPrompt] = useState("")
   const [code, setCode] = useState("")
@@ -138,7 +138,7 @@ export default function FractalUIApp() {
     } else {
       document.documentElement.classList.remove("dark")
     }
-    localStorage.setItem("fractal-ui-dark-mode", JSON.stringify(darkMode))
+    localStorage.setItem("raj-ui-dark-mode", JSON.stringify(darkMode))
   }, [darkMode])
 
   // Update preview when code changes
@@ -536,7 +536,7 @@ export default function FractalUIApp() {
               </div>
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Fractal UI
+                  RAJ UI
                 </h1>
                 <p className="text-xs text-gray-500 dark:text-gray-400">AI-Powered Components</p>
               </div>
