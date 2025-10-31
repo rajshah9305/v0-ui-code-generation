@@ -50,7 +50,7 @@ pnpm install
 The `.env.local` file is already configured with your Gemini API key:
 
 ```bash
-GOOGLE_GENERATIVE_AI_API_KEY=AIzaSyDoJfTNmTCQydkjcaSGNoiZCpoKVhfwrAM
+GOOGLE_GENERATIVE_AI_API_KEY="Your_API_KEY_HERE"
 ```
 
 ### 4. Start the development server
